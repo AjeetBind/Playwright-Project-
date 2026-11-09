@@ -1,0 +1,8 @@
+[INFO] Navigating to /web/index.php/auth/login
+[PASS] Navigated to OrangeHRM application successfully
+[INFO] Verifying Username field is visible
+[PASS] Username field is visible successfully
+[INFO] Verifying Password field is visible
+[PASS] Password field is visible successfully
+[INFO] Verifying Login button is visible
+[PASS] Login button is visible successfully

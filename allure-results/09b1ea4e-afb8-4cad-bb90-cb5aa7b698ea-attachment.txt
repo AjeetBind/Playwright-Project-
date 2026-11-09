@@ -1,0 +1,23 @@
+[INFO] Navigating to /web/index.php/auth/login
+[PASS] Navigated to OrangeHRM application successfully
+[INFO] Entering "Admin" in Username
+[PASS] "Admin" entered successfully in Username
+[INFO] Entering "admin123" in Password
+[PASS] "admin123" entered successfully in Password
+[INFO] Clicking Login button
+[PASS] Login button clicked successfully
+[INFO] Verifying Dashboard is visible
+[PASS] Dashboard is visible successfully
+[INFO] Verifying Admin icon is visible
+[PASS] Admin icon is visible successfully
+[INFO] Clicking Admin icon
+[PASS] Admin icon clicked successfully
+[INFO] Clicking Reset Button
+[PASS] Reset Button clicked successfully
+[INFO] Verifying Reset Button is visible
+[PASS] Reset Button is visible successfully
+[INFO] Verifying System Users Header is visible
+[PASS] System Users Header is visible successfully
+[INFO] Verifying Page Title: Expected = OrangeHRM, Actual = OrangeHRM
+[PASS] Page Title verified successfully
+[INFO] Entering "testuser" in Username field

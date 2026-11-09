@@ -1,0 +1,16 @@
+[INFO] Navigating to /web/index.php/auth/login
+[PASS] Navigated to OrangeHRM application successfully
+[INFO] Verifying Username field is visible
+[PASS] Username field is visible successfully
+[INFO] Verifying Password field is visible
+[PASS] Password field is visible successfully
+[INFO] Verifying Login button is visible
+[PASS] Login button is visible successfully
+[INFO] Entering "Admin" in Username
+[PASS] "Admin" entered successfully in Username
+[INFO] Entering "admin123" in Password
+[PASS] "admin123" entered successfully in Password
+[INFO] Clicking Login button
+[PASS] Login button clicked successfully
+[INFO] Verifying Dashboard is visible
+[PASS] Dashboard is visible successfully

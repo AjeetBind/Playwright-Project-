@@ -1,0 +1,53 @@
+[FAIL] Failed to navigate to OrangeHRM application
+page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"
+
+    at D:\PlaywrightPOM\utils\WebUtils.js:10:28
+    at WebUtils.goto (D:\PlaywrightPOM\utils\WebUtils.js:7:9)
+    at LoginPage.openURL (D:\PlaywrightPOM\base\BasePage.js:13:9)
+    at D:\PlaywrightPOM\tests\Login.spec.js:15:9 {
+  log: [
+    '  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"'
+  ],
+  Symbol(step): {
+    location: {
+      file: 'D:\\PlaywrightPOM\\utils\\WebUtils.js',
+      line: 10,
+      column: 28
+    },
+    category: 'pw:api',
+    title: 'Navigate',
+    subtitle: '/web/index.php/auth/login',
+    params: { url: '/web/index.php/auth/login' },
+    group: undefined,
+    stepId: 'pw:api@38',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@38',
+      _title: 'Navigate',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789879548028,
+    error: {
+      message: 'Error: page.goto: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"\x1B[22m\n',
+      stack: 'Error: page.goto: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        '\x1B[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "load"\x1B[22m\n' +
+        '\n' +
+        '    at D:\\PlaywrightPOM\\utils\\WebUtils.js:10:28\n' +
+        '    at WebUtils.goto (D:\\PlaywrightPOM\\utils\\WebUtils.js:7:9)\n' +
+        '    at LoginPage.openURL (D:\\PlaywrightPOM\\base\\BasePage.js:13:9)\n' +
+        '    at D:\\PlaywrightPOM\\tests\\Login.spec.js:15:9',
+      cause: undefined
+    }
+  }
+}

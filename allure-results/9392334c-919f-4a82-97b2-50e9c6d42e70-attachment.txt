@@ -1,0 +1,70 @@
+[FAIL] Failed to select "ESS" from User Role dropdown
+locator.selectOption: Error: Element is not a <select> element
+Call log:
+  - waiting for locator('//label[text()=\'User Role\']/following::div[contains(@class,\'oxd-select-text\')][1]')
+    - locator resolved to <div data-v-67d2aedf="" data-v-13cf171c="" class="oxd-select-text oxd-select-text--active">…</div>
+  - attempting select option action
+    - waiting for element to be visible and enabled
+
+    at D:\PlaywrightPOM\utils\WebUtils.js:350:31
+    at WebUtils.selectOption (D:\PlaywrightPOM\utils\WebUtils.js:346:9)
+    at AdminPage.selectUserRole (D:\PlaywrightPOM\pages\Adminpage.js:47:9)
+    at AdminPage.verifyEmployeeDisableRecord (D:\PlaywrightPOM\pages\Adminpage.js:159:5)
+    at D:\PlaywrightPOM\tests\Admintest.spec.js:35:10 {
+  log: [
+    "  - waiting for locator('//label[text()=\\'User Role\\']/following::div[contains(@class,\\'oxd-select-text\\')][1]')",
+    '    - locator resolved to <div data-v-67d2aedf="" data-v-13cf171c="" class="oxd-select-text oxd-select-text--active">…</div>',
+    '  - attempting select option action',
+    '    - waiting for element to be visible and enabled'
+  ],
+  Symbol(step): {
+    location: {
+      file: 'D:\\PlaywrightPOM\\utils\\WebUtils.js',
+      line: 350,
+      column: 31
+    },
+    category: 'pw:api',
+    title: 'Select option',
+    subtitle: "locator('//label[text()=\\'User Role\\']/following::div[contains(@class,\\'oxd-select-text\\')][1]')",
+    params: {
+      locator: "locator('//label[text()=\\'User Role\\']/following::div[contains(@class,\\'oxd-select-text\\')][1]')",
+      options: [Array]
+    },
+    group: undefined,
+    stepId: 'pw:api@66',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@66',
+      _title: 'Select option',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789891047022,
+    error: {
+      message: 'Error: locator.selectOption: Error: Element is not a <select> element\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//label[text()=\\'User Role\\']/following::div[contains(@class,\\'oxd-select-text\\')][1]')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <div data-v-67d2aedf="" data-v-13cf171c="" class="oxd-select-text oxd-select-text--active">…</div>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible and enabled\x1B[22m\n',
+      stack: 'Error: locator.selectOption: Error: Element is not a <select> element\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//label[text()=\\'User Role\\']/following::div[contains(@class,\\'oxd-select-text\\')][1]')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <div data-v-67d2aedf="" data-v-13cf171c="" class="oxd-select-text oxd-select-text--active">…</div>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting for element to be visible and enabled\x1B[22m\n' +
+        '\n' +
+        '    at D:\\PlaywrightPOM\\utils\\WebUtils.js:350:31\n' +
+        '    at WebUtils.selectOption (D:\\PlaywrightPOM\\utils\\WebUtils.js:346:9)\n' +
+        '    at AdminPage.selectUserRole (D:\\PlaywrightPOM\\pages\\Adminpage.js:47:9)\n' +
+        '    at AdminPage.verifyEmployeeDisableRecord (D:\\PlaywrightPOM\\pages\\Adminpage.js:159:5)\n' +
+        '    at D:\\PlaywrightPOM\\tests\\Admintest.spec.js:35:10',
+      cause: undefined
+    }
+  }
+}

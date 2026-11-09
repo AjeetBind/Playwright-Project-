@@ -1,0 +1,24 @@
+{
+  "newUser": {
+    "role": "ESS",
+    "employeeName": "Test Employee",
+    "status": "Enabled",
+    "username": "testuser01",
+    "password": "Test@12345",
+    "confirmPassword": "Test@12345"
+  },
+
+  "enabledUser": {
+    "username": "Admin",
+    "role": "Admin",
+    "employeeName": "M sai",
+    "status": "Enabled"
+  },
+
+  "disabledUser": {
+    "username": "testuser",
+    "role": "ESS",
+    "employeeName": "Test Employee",
+    "status": "Disabled"
+  }
+}

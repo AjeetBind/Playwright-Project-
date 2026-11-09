@@ -1,0 +1,1 @@
+{"attachments":[],"errors":[{"message":"beforeEach hook failed: TypeError: page.xpath is not a function","trace":"TypeError: page.xpath is not a function\n    at AdminPage (D:\\PlaywrightPOM\\pages\\Adminpage.js:10:26)\n    at D:\\PlaywrightPOM\\tests\\Admintest.spec.js:14:17","timestamp":1789888489199}]}

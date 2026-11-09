@@ -1,0 +1,59 @@
+[FAIL] Failed to select "ESS" from User Role dropdown
+locator.selectOption: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//label[text()=\'User Role\']/following-sibling::div//div[contains(@class,\'oxd-select-text\')]')
+
+    at D:\PlaywrightPOM\utils\WebUtils.js:350:31
+    at WebUtils.selectOption (D:\PlaywrightPOM\utils\WebUtils.js:346:9)
+    at AdminPage.selectUserRole (D:\PlaywrightPOM\pages\Adminpage.js:51:9)
+    at AdminPage.verifyEmployeeDisableRecord (D:\PlaywrightPOM\pages\Adminpage.js:163:5)
+    at D:\PlaywrightPOM\tests\Admintest.spec.js:35:10 {
+  log: [
+    "  - waiting for locator('//label[text()=\\'User Role\\']/following-sibling::div//div[contains(@class,\\'oxd-select-text\\')]')"
+  ],
+  name: 'TimeoutError',
+  Symbol(step): {
+    location: {
+      file: 'D:\\PlaywrightPOM\\utils\\WebUtils.js',
+      line: 350,
+      column: 31
+    },
+    category: 'pw:api',
+    title: 'Select option',
+    subtitle: "locator('//label[text()=\\'User Role\\']/following-sibling::div//div[contains(@class,\\'oxd-select-text\\')]')",
+    params: {
+      locator: "locator('//label[text()=\\'User Role\\']/following-sibling::div//div[contains(@class,\\'oxd-select-text\\')]')",
+      options: [Array]
+    },
+    group: undefined,
+    stepId: 'pw:api@66',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@66',
+      _title: 'Select option',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789891454043,
+    error: {
+      message: 'TimeoutError: locator.selectOption: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//label[text()=\\'User Role\\']/following-sibling::div//div[contains(@class,\\'oxd-select-text\\')]')\x1B[22m\n",
+      stack: 'TimeoutError: locator.selectOption: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//label[text()=\\'User Role\\']/following-sibling::div//div[contains(@class,\\'oxd-select-text\\')]')\x1B[22m\n" +
+        '\n' +
+        '    at D:\\PlaywrightPOM\\utils\\WebUtils.js:350:31\n' +
+        '    at WebUtils.selectOption (D:\\PlaywrightPOM\\utils\\WebUtils.js:346:9)\n' +
+        '    at AdminPage.selectUserRole (D:\\PlaywrightPOM\\pages\\Adminpage.js:51:9)\n' +
+        '    at AdminPage.verifyEmployeeDisableRecord (D:\\PlaywrightPOM\\pages\\Adminpage.js:163:5)\n' +
+        '    at D:\\PlaywrightPOM\\tests\\Admintest.spec.js:35:10',
+      cause: undefined
+    }
+  }
+}

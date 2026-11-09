@@ -1,0 +1,65 @@
+[FAIL] Page Title verification failed
+ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: "System Users"
+Received: "OrangeHRM"
+    at D:\PlaywrightPOM\utils\AssertionUtils.js:386:41
+    at AssertionUtils.expectEqual (D:\PlaywrightPOM\utils\AssertionUtils.js:385:9)
+    at AdminPage.verifyPageTitle (D:\PlaywrightPOM\pages\Adminpage.js:96:9)
+    at AdminPage.verifypageloadedsuccessfully (D:\PlaywrightPOM\pages\Adminpage.js:102:13)
+    at AdminPage.verifyAdminpageLoadedSuccessfully (D:\PlaywrightPOM\pages\Adminpage.js:170:2)
+    at D:\PlaywrightPOM\tests\Admintest.spec.js:28:5 {
+  matcherResult: {
+    actual: 'OrangeHRM',
+    expected: 'System Users',
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m"System Users"\x1B[39m\n' +
+      'Received: \x1B[31m"OrangeHRM"\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  Symbol(step): {
+    category: 'expect',
+    title: 'Expect "toBe"',
+    subtitle: undefined,
+    location: {
+      file: 'D:\\PlaywrightPOM\\utils\\AssertionUtils.js',
+      line: 386,
+      column: 41
+    },
+    params: { expected: 'System Users' },
+    stepId: 'expect@56',
+    group: undefined,
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@56',
+      _title: 'Expect "toBe"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789889082525,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m"System Users"\x1B[39m\n' +
+        'Received: \x1B[31m"OrangeHRM"\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m"System Users"\x1B[39m\n' +
+        'Received: \x1B[31m"OrangeHRM"\x1B[39m\n' +
+        '    at D:\\PlaywrightPOM\\utils\\AssertionUtils.js:386:41\n' +
+        '    at AssertionUtils.expectEqual (D:\\PlaywrightPOM\\utils\\AssertionUtils.js:385:9)\n' +
+        '    at AdminPage.verifyPageTitle (D:\\PlaywrightPOM\\pages\\Adminpage.js:96:9)\n' +
+        '    at AdminPage.verifypageloadedsuccessfully (D:\\PlaywrightPOM\\pages\\Adminpage.js:102:13)\n' +
+        '    at AdminPage.verifyAdminpageLoadedSuccessfully (D:\\PlaywrightPOM\\pages\\Adminpage.js:170:2)\n' +
+        '    at D:\\PlaywrightPOM\\tests\\Admintest.spec.js:28:5',
+      cause: undefined
+    }
+  }
+}
